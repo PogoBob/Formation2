@@ -1,0 +1,29 @@
+form
+{
+    background-color:#ffffff;
+    width:50%;
+    margin:0 auto;
+    padding:15px;
+}
+
+p
+{
+    text-align: center;
+}
+
+.selector
+{
+    text-align: center;
+}
+
+.checkbox
+{
+    text-align: center;
+    margin: 5px;
+}
+
+.text-box
+{
+    width: 100%;
+    min-height: 110px;
+}

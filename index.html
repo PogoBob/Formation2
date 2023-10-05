@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Форма обратной связи</title>
+    </head>
+    <body>
+        <form>
+        <fieldset>
+        <legend>Форма обратной связи</legend>
+        <p> Ваше имя: <input type="text" placeholder="Имя"></input></p>
+        <p> Ваш email: <input type="email" placeholder="Email"></input></p>
+        <p>Откуда о нас узнали?
+            <input type="radio" name="primer">В интернете
+            <input type="radio" name="primer">От друзей
+        </p>
+        <p>Тип обращения</p>
+        <div class="selector">
+            <input class="selector" type="selector" value="">
+        </div>
+        <p>Текст сообщения:</p>
+        <textarea class="text-box" placeholder="Сообщение"></textarea>
+        <p><input type="file" value="Выберите файл"></p>
+        <div class="selector">
+            <input class="checkbox" type="checkbox" value="1">Даю согласие на обработку
+        </div>
+        <p>
+            <button formnovalidate type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </p>
+        </fieldset>
+        </form>
+    </body>
